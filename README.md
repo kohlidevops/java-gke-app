@@ -688,6 +688,10 @@ git push -u origin main
 3. Watch the workflow execute
 4. Check for any errors
 
+
+<img width="1820" height="892" alt="image" src="https://github.com/user-attachments/assets/6d4efcfb-54e7-4767-aede-85e70f9049db" />
+
+
 #### Step 12: Check GKE Deployment
 
 ```
@@ -709,6 +713,9 @@ kubectl get service java-app-service
 # Wait for external IP (may take 2-3 minutes)
 watch kubectl get service java-app-service
 ```
+
+<img width="1122" height="500" alt="image" src="https://github.com/user-attachments/assets/1bfc176f-1d23-4034-82d7-cdd13d66f071" />
+
 
 #### Step 13: Test Application
 
